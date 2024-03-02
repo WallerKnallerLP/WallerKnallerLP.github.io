@@ -1,0 +1,12 @@
+body
+{
+    background-color: white;     
+}
+
+#sliderBackground
+{
+    width: 30px;
+
+    position: absolute;
+    right: 0.5vw;
+}
