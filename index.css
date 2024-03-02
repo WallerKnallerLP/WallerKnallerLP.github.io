@@ -22,7 +22,7 @@ body
 #sliderBackground::-webkit-slider-thumb
 {
     -webkit-appearance: none;
-    background-color: #13C0D5;
+    background-color: var(--SliderColor);
     width: 15px;
     height: 15px;
 
