@@ -30,3 +30,27 @@ body
     border-radius: 10px;
 
 }
+
+#ticTacToeField
+{
+    display: grid;
+    grid-template-columns: 16vw 16vw 16vw;
+    column-gap: 1vw;
+    grid-template-rows: 16vh 16vh 16vh;
+    row-gap: 1vh;
+
+    height: 50vh;
+    width: 50vw;
+    position: absolute;
+    top: 25vh;
+    left: 25vw;
+}
+
+.ticTacToeItem
+{
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
