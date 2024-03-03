@@ -1,0 +1,73 @@
+body
+{
+    background-color: white;     
+}
+
+#sliderBackground
+{
+    -webkit-appearance: none;
+    appearance: none;
+    background: transparent;
+    cursor: pointer;
+    height: 15px;
+    width: 30px;
+
+    border: 2px solid grey;
+    border-radius: 10px;
+    
+    position: absolute;
+    right: 0.5vw;
+}
+
+#sliderBackground::-webkit-slider-thumb
+{
+    -webkit-appearance: none;
+    background-color: var(--SliderColor);
+    width: 15px;
+    height: 15px;
+
+    border: 1px solid grey;
+    border-radius: 10px;
+
+}
+
+#ticTacToeField
+{
+    display: grid;
+    grid-template-columns: 16vw 16vw 16vw;
+    column-gap: 1vw;
+    grid-template-rows: 16vh 16vh 16vh;
+    row-gap: 1vh;
+
+    height: 50vh;
+    width: 50vw;
+    position: absolute;
+    top: 25vh;
+    left: 25vw;
+}
+
+.ticTacToeItem
+{
+    background-color: var(--TicTacToeItemColor);
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    color: var(--TextColor);
+}
+
+#restartButton
+{
+    -webkit-appearance: none;
+    position: absolute;
+    right: 0.5vw;
+    bottom: 1vh;
+    border-radius: 15px;
+    height: 40px;
+    width: 80px;
+    background-color: var(--BackgroundColor);
+    color: var(--TextColor);
+    font-size: 15px;
+    font-weight: bold;
+}

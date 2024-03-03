@@ -1,0 +1,3 @@
+
+
+tictactoe crashes if from bottom left to upper right is connected
