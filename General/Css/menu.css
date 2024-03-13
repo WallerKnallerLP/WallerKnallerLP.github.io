@@ -1,0 +1,52 @@
+/*----------------------------------------------------------------------*/
+/*--MENU----------------------------------------------------------------*/
+
+#menu
+{
+    width: fit-content;
+    height: fit-content;
+    background: var(--background-color2);
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px #1c1c1c;
+}
+
+#menu-button
+{
+    position: relative;
+    background: transparent;
+    border: none;
+    border-radius: 10px;
+    color: var(--background-color1);
+    font-weight: bold;
+    font-size: 20px;
+
+    width: 100%;
+}
+
+#menu-list
+{
+    display: none;
+    width: fit-content;
+    gap: 0px;
+    background: var(--background-color2);
+    border-radius: 15px;
+    box-shadow: 5px 5px 20px #1c1c1c;
+    flex-direction: column;
+}
+
+.menuItem
+{
+    text-decoration: none;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 4px;
+    border-radius: 15px;
+    color: var(--background-color1);
+}
+
+.menuItem:hover
+{
+    background-color: var(--background-color1);
+    color: var(--background-color2);
+}

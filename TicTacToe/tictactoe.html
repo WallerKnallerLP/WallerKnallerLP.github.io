@@ -3,13 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="tictactoe.js"></script>
+    <script src="tictactoe.js" type="module"></script>
     <link rel="stylesheet" href="tictactoe.css">
     <title>Tic Tac Toe</title>
 </head>
 <body>
+    <!--CHANGE BACKGROUND-->
     <input id="sliderBackground" type="range" min="0" max="1" value="1" >
 
+    <!--MENU-->
+    <div id="menu">
+        <button id="menu-button">☰</button>
+        <nav id="menu-list">
+            <a class="menuItem" href="../index.html">Home</a>
+            <a class="menuItem" href="tictactoe.html">TicTacToe</a>
+        </nav>
+    </div>
+
+    <!--TicTacToe FIELD-->
     <div id="ticTacToeField">
         <button class="ticTacToeItem"></button>
         <button class="ticTacToeItem"></button>
