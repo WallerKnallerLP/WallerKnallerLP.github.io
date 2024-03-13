@@ -1,6 +1,13 @@
+:root
+{
+    --background-color1: var(--main-bg-color);
+    --background-color2: var(--secondary-bg-color);
+    background-color: var(--background-color1);
+}
+
 body
 {
-    background-color: white;     
+    background: transparent;
 }
 
 #sliderBackground
@@ -22,7 +29,7 @@ body
 #sliderBackground::-webkit-slider-thumb
 {
     -webkit-appearance: none;
-    background-color: var(--SliderColor);
+    background-color: var(--background-color2);
     width: 15px;
     height: 15px;
 
@@ -48,26 +55,26 @@ body
 
 .ticTacToeItem
 {
-    background-color: var(--TicTacToeItemColor);
+    background-color: var(--background-color2);
     border: 1px solid black;
     border-radius: 20px;
     padding: 20px;
     font-size: 30px;
     text-align: center;
-    color: var(--TextColor);
+    color: var(--background-color1);
 }
 
 #restartButton
 {
-    -webkit-appearance: none;
+    /*-webkit-appearance: none;*/
     position: absolute;
     right: 0.5vw;
     bottom: 1vh;
     border-radius: 15px;
     height: 40px;
     width: 80px;
-    background-color: var(--BackgroundColor);
-    color: var(--TextColor);
+    background-color: var(--background-color2);
+    color: var(--background-color1);
     font-size: 15px;
     font-weight: bold;
 }

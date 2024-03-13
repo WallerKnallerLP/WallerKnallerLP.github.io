@@ -12,22 +12,9 @@ function init()
 function changeBackground()
 {
     var slider = document.getElementById("sliderBackground");
-    var ticTacToeItems = document.getElementsByClassName("ticTacToeItem");
-    var restartButton = document.getElementById("restartButton");
 
-    document.body.style.backgroundColor = "#3B3837";
-    slider.style.setProperty("--SliderColor", "white");
-
-    restartButton.style.setProperty("--BackgroundColor", "white")
-    restartButton.style.setProperty("--TextColor", "#3B3837")
-
-    //TicTacToeItem Color
-    Array.from(ticTacToeItems).forEach((item) => 
-    {
-        item.style.setProperty("--TicTacToeItemColor", "white");
-        item.style.setProperty("--TextColor", "#3B3837");
-    });
-    
+    document.documentElement.style.setProperty('--main-bg-color', '#3B3837');
+    document.documentElement.style.setProperty('--secondary-bg-color', 'white');
 
     slider.oninput = function() 
     {
@@ -44,42 +31,14 @@ function changeBackground()
 
 function backgroundWhite()
 {
-    var slider = document.getElementById("sliderBackground");
-    var ticTacToeItems = document.getElementsByClassName("ticTacToeItem");
-    var restartButton = document.getElementById("restartButton");
-
-    document.body.style.backgroundColor = "white";
-    slider.style.setProperty("--SliderColor", "#3B3837");
-
-    restartButton.style.setProperty("--BackgroundColor", "#3B3837")
-    restartButton.style.setProperty("--TextColor", "white")
-
-    //TicTacToeItem Color
-    Array.from(ticTacToeItems).forEach((item) => 
-    {
-        item.style.setProperty("--TicTacToeItemColor", "#3B3837");
-        item.style.setProperty("--TextColor", "white");
-    });
+    document.documentElement.style.setProperty('--main-bg-color', 'white');
+    document.documentElement.style.setProperty('--secondary-bg-color', '#3B3837'); 
 }
 
 function backgroundBlack()
 {
-    var slider = document.getElementById("sliderBackground");
-    var ticTacToeItems = document.getElementsByClassName("ticTacToeItem");
-    var restartButton = document.getElementById("restartButton");
-
-    document.body.style.backgroundColor = "#3B3837";
-    slider.style.setProperty("--SliderColor", "white");
-
-    restartButton.style.setProperty("--BackgroundColor", "white")
-    restartButton.style.setProperty("--TextColor", "#3B3837")
-
-    //TicTacToeItem Color
-    Array.from(ticTacToeItems).forEach((item) => 
-    {
-        item.style.setProperty("--TicTacToeItemColor", "white");
-        item.style.setProperty("--TextColor", "#3B3837");
-    });  
+    document.documentElement.style.setProperty('--main-bg-color', '#3B3837');
+    document.documentElement.style.setProperty('--secondary-bg-color', 'white');
 }
 
 function initializeTicTacToe()

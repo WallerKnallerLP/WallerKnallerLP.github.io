@@ -1,6 +1,15 @@
+:root
+{
+    --background-color1: var(--main-bg-color);
+    --background-color2: var(--secondary-bg-color);
+    
+    background-color: var(--background-color1);
+    color: var(--background-color2);
+}
+
 body
 {
-    background-color: white;     
+    background: transparent;
 }
 
 #sliderBackground
@@ -22,7 +31,7 @@ body
 #sliderBackground::-webkit-slider-thumb
 {
     -webkit-appearance: none;
-    background-color: var(--SliderColor);
+    background-color: var(--background-color2);
     width: 15px;
     height: 15px;
 
@@ -36,7 +45,7 @@ body
     display: flex;
     width: fit-content;
     gap: 0px;
-    background: white;
+    background: var(--background-color2);
     border-radius: 15px;
     box-shadow: 5px 5px 20px #1c1c1c;
     flex-direction: column;
@@ -50,11 +59,11 @@ body
     font-size: 20px;
     margin: 4px;
     border-radius: 15px;
-    color: #3B3837;
+    color: var(--background-color1);
 }
 
 .menuItem:hover
 {
-    background-color: #3B3837;
-    color: white;
+    background-color: var(--background-color1);
+    color: var(--background-color2);
 }

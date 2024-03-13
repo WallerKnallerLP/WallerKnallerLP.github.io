@@ -12,9 +12,8 @@ function changeBackground()
 {
     var slider = document.getElementById("sliderBackground");
 
-    document.body.style.backgroundColor = "#3B3837";
-    slider.style.setProperty("--SliderColor", "white");
-    
+    document.documentElement.style.setProperty('--main-bg-color', '#3B3837');
+    document.documentElement.style.setProperty('--secondary-bg-color', 'white');
 
     slider.oninput = function() 
     {
@@ -31,16 +30,12 @@ function changeBackground()
 
 function backgroundWhite()
 {
-    var slider = document.getElementById("sliderBackground");
-
-    document.body.style.backgroundColor = "white";
-    slider.style.setProperty("--SliderColor", "#3B3837");
+    document.documentElement.style.setProperty('--main-bg-color', 'white');
+    document.documentElement.style.setProperty('--secondary-bg-color', '#3B3837'); 
 }
 
 function backgroundBlack()
 {
-    var slider = document.getElementById("sliderBackground");
-
-    document.body.style.backgroundColor = "#3B3837";
-    slider.style.setProperty("--SliderColor", "white");
+    document.documentElement.style.setProperty('--main-bg-color', '#3B3837');
+    document.documentElement.style.setProperty('--secondary-bg-color', 'white');
 }
