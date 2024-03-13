@@ -1,0 +1,16 @@
+#login
+{
+    border: 2px solid grey;
+    border-radius: 10px;
+    
+    position: absolute;
+    right: 0.5vw;
+    margin-right: 40px;
+}
+
+#login-button
+{
+    background: transparent;
+    border: none;
+    color: var(--background-color2);
+}
