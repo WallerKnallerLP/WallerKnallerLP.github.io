@@ -1,0 +1,75 @@
+@import url("./../General/Css/sliderBackground.css");
+@import url("./../General/Css/menu.css");
+@import url("./../General/Css/backgroundSetup.css");
+
+#login-window
+{
+    position: absolute;
+    width: 50vw;
+    height: 60vh;
+    top: 15vh;
+    left: 25vw;
+
+    background-color: var(--background-color2);
+    color: var(--background-color1);
+    border-radius: 10px;
+
+    display: grid;
+    grid-template-rows: auto auto auto auto auto;
+    padding: 5px; 
+    text-align: center;
+    
+}
+
+#email-text
+{
+    grid-row: 1;
+    align-self: center;
+}
+
+#email-form
+{
+    grid-row: 2;
+
+    width: 40vw;
+    margin: auto;
+    
+    background-color: var(--background-color1);
+    color: var(--background-color2);
+    outline-color: var(--background-color2);
+    border: 0;
+    border-radius: 5px;
+}
+
+#password-text
+{
+    grid-row: 3;
+    align-self: center;
+}
+
+#password-form
+{
+    grid-row: 4;
+    position: absolute;
+
+    width: 40vw;
+    left: 5vw;
+
+    background-color: var(--background-color1);
+    color: var(--background-color2);
+    outline-color: var(--background-color2);
+    border: 0;
+    border-radius: 5px;
+}
+
+#submit-form
+{
+    grid-row: 5;
+    position: absolute;
+
+    width: 40vw;
+    left: 5vw;
+
+    border-radius: 5px;
+}
+

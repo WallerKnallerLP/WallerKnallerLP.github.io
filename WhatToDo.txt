@@ -1,3 +1,7 @@
+cookies gets created and can be read.
+switches text from "sign in" to "sign out" if cookie is found.
+Now "sign out" needs to do something diffrent then "Sign in".
+
 
 
 tictactoe crashes if from bottom left to upper right is connected
