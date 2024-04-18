@@ -1,3 +1,15 @@
+function initLogin()
+{
+    let account = login(); 
+
+    console.log(account);
+    
+    if (account != "")
+    {
+        document.getElementById("login-button").innerHTML = "Sign out";
+    }
+}
+
 function login()
 {
     let account = readCookie();
@@ -35,9 +47,10 @@ function readCookie()
         {
             account[1] = c.substring(password.length, c.length);
         }
+        console.log(account);
         return account;
     }
     return "";
 }
 
-export { login };
+export { initLogin };

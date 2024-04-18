@@ -25,14 +25,17 @@
 {
     grid-row: 1;
     align-self: center;
+    font-size: 4vh;
 }
 
 #email-form
 {
     grid-row: 2;
+    position: absolute;
 
     width: 40vw;
-    margin: auto;
+    height: 3vh;
+    left: 5vw;
     
     background-color: var(--background-color1);
     color: var(--background-color2);
@@ -45,6 +48,7 @@
 {
     grid-row: 3;
     align-self: center;
+    font-size: 4vh;
 }
 
 #password-form
@@ -53,6 +57,7 @@
     position: absolute;
 
     width: 40vw;
+    height: 3vh;
     left: 5vw;
 
     background-color: var(--background-color1);
@@ -68,8 +73,14 @@
     position: absolute;
 
     width: 40vw;
+    height: 3.5vh;
     left: 5vw;
 
+    font-size: 2.5vh;
+    font-weight: bold;
+    color: var(--background-color2);
+
     border-radius: 5px;
+    background-color: var(--background-color1);
 }
 

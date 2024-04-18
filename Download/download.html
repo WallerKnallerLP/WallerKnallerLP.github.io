@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="download.js" type="module"></script>
+    <link rel="stylesheet" href="download.css">
+    <title>Download</title>
+</head>
+<body>
+    <!--Top Right Lists-->
+    <div>
+        <!--CHANGE BACKGROUND-->
+        <input id="sliderBackground" type="range" min="0" max="1" value="1" >
+        
+        <!--Login-->
+        <a id="login" href="./Login/login.html">
+            <button id="login-button">Sign in</button>
+        </a>
+    </div>
+    
+
+    <!--MENU-->
+    <div id="menu">
+        <button id="menu-button">☰</button>
+        <nav id="menu-list">
+            <a class="menuItem" href="./../index.html">Home</a>
+            <a class="menuItem" href="./../TicTacToe/tictactoe.html">TicTacToe</a>
+            <a class="menuItem" href="./../Download/download.html">Download</a>
+        </nav>
+    </div>
+
+    <!--DOWNLOAD FORM-->
+    <div id="form">
+        <form id="downloadForm">
+            <label class="formCaptions">Browser</label><br>
+
+            <input type="checkbox" class="checkBrowser" id="browser1" value="Firefox">
+            <label for="browser1">Firefox</label><br>
+            <input type="checkbox" class="checkBrowser" id="browser2" value="Chrome">
+            <label for="browser2">Chrome</label><br>
+            <input type="checkbox" class="checkBrowser" id="browser3" value="Opera">
+            <label for="browser3">Opera GX</label><br>
+
+
+            <label class="formCaptions">Games</label><br>
+
+            <input type="checkbox" class="checkGames" id="games1" value="Steam">
+            <label for="games1">Steam</label><br>
+            <input type="checkbox" class="checkGames" id="games2" value="Epic">
+            <label for="games2">Epic Games Launcher</label><br>
+            <input type="checkbox" class="checkGames" id="games3" value="Battle">
+            <label for="games3">Battle.net Launcher</label><br>
+
+            
+            <label class="formCaptions">Others</label><br>
+
+            <input type="checkbox" class="checkBrowser" id="others1" value="Discord">
+            <label for="others1">Discord</label><br>
+
+            <button type="submit">Download</button>
+        </form>
+    </div>
+</body>
+</html>

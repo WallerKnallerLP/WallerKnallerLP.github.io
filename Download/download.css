@@ -1,0 +1,21 @@
+@import url("./../General/Css/sliderBackground.css");
+@import url("./../General/Css/menu.css");
+@import url("./../General/Css/backgroundSetup.css");
+@import url("./../General/Css/login.css");
+
+#form
+{
+    position: absolute;
+    top: 25vh;
+    left: 25vw;
+    height: 50vh;
+    width: 50vw;
+    align-content: center;
+    justify-content: center;
+}
+
+.formCaptions
+{
+    
+    font-size: 3vh;
+}
